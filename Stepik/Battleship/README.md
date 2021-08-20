@@ -39,35 +39,33 @@ type Game = (Field, Fleet)
 
 Выведите имена кораблей, которые получилось расставить на поле.  
 Для удобства предлагаем реализовать методы, сигнатуры которых написаны в шаблоне.
-----
-**Sample Input 1**:
-2
-MillenniumFalcon 4
-2 5
-3 5
-4 5
-5 5
-Varyag 1
-9 9
-----
-**Sample Output 1**:
-MillenniumFalcon
-Varyag
-----
-**Sample Input 2**:
-3
-BlackPearl 3
-1 6
-1 7
-1 8
-MillenniumFalcon 4
-2 5
-3 5
-4 5
-5 5
-Varyag 1
-9 9
-----
-**Sample Output 2**:
-BlackPearl
-Varyag
+  
+**Sample Input 1**:  
+2  
+MillenniumFalcon 4  
+2 5  
+3 5  
+4 5  
+5 5  
+Varyag 1  
+9 9  
+**Sample Output 1**:  
+MillenniumFalcon  
+Varyag  
+  
+**Sample Input 2**:  
+3  
+BlackPearl 3  
+1 6  
+1 7  
+1 8  
+MillenniumFalcon 4  
+2 5  
+3 5  
+4 5  
+5 5  
+Varyag 1  
+9 9  
+**Sample Output 2**:  
+BlackPearl  
+Varyag  
