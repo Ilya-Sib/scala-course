@@ -28,21 +28,26 @@ class LearningAlgorithm {
   def getModel: ClassifierModel =
     new ClassifierModel(
       classWordsCount = data.view.mapValues(list =>
-        list.map(text =>
-          text.split(' ').length
-        ).sum
+        splitListTest(list)
+          .length
       ).toMap,
 
       classDocCount = data.view.mapValues(_.length).toMap,
 
       eachWordCountByClass = data.view.mapValues(list =>
-        list
-          .flatMap(text => text.split(' '))
+        splitListTest(list)
           .groupBy(identity)
           .view.mapValues(_.length)
           .toMap
       ).toMap
     )
+
+  private def splitListTest(list: List[String]): List[String] = {
+    list
+      .flatMap(text => text.split("\\s+"))
+      .filter(_.nonEmpty)
+      .map(_.trim)
+  }
 
   def getClassifier: NaiveBayesClassifier =
     new NaiveBayesClassifier(getModel)
