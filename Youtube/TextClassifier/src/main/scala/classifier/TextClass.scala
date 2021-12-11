@@ -1,0 +1,5 @@
+package classifier
+
+object TextClass {
+
+}
