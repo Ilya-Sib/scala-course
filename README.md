@@ -10,6 +10,12 @@
   * [Huffman](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-principles/patmat)
   * [RecFun](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-principles/recfun)
 
+* [Coursera - Functional Programming Design in Scala](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-design)
+  * [Calculator with GUI](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-design/calculator)
+  * [JSON encoder and decoder](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-design/codecs)
+  * [QuickCheck Tests](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-design/quickcheck)
+  * [Laziness](https://github.com/Ilya-Sib/scala-course/tree/main/Coursera/fp-design/streams)
+
 * [Stepik](https://github.com/Ilya-Sib/scala-course/tree/main/Stepik)
   * [AuxVector](https://github.com/Ilya-Sib/scala-course/tree/main/Stepik/AuxVector)
   * [Battleship](https://github.com/Ilya-Sib/scala-course/tree/main/Stepik/Battleship)
